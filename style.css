@@ -10,6 +10,7 @@ header {
     color: #fff;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.403);
     font-size:.8rem;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.144);
 }
 
 header img{
@@ -39,7 +40,7 @@ body {
     align-items: center;
     justify-content:center;
     gap: 15px;
-    border: 2px solid rgb(179, 175, 175);
+    border: 2px solid rgba(209, 161, 106, 0.607);
     border-radius: 10px;
     width:fit-content;
 }
@@ -107,14 +108,15 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 5px;
-    border-top: 1px solid rgba(93, 72, 46, 0.377);
+    background-color: rgba(22, 19, 16, 0.959);
     box-shadow: 2px -2px 5px rgba(93, 72, 46, 0.377);
-    padding: 20px;
+    padding: 25px;
 }
 
 footer #logo img {
     height: 60px;
-    filter: drop-shadow(2px 2px 1px rgba(255, 255, 0, 0.219));
+    filter: drop-shadow(1px 1px 1px rgba(252, 252, 173, 0.164));
+    opacity: 90%;
 }
 
 footer #mail {
@@ -125,14 +127,27 @@ footer #mail p {
     margin-top: 20px;
     text-align: center;
     line-height: 20px;
-    color: rgb(90, 90, 90);
+    color: rgb(190, 187, 139);
     font-size: 1.2rem;
 }
 
-footer #mail a {
-    text-decoration: none;
-    cursor: pointer;
-    color: rgb(93, 72, 46);
+footer #links {
+    flex:100%;
+    text-align: center;
+    margin-left: 70px;
+}
+
+footer #links img {
+    padding: 3px;
+    margin-left: 5px;
+    opacity: 70%;
+    border-top: 1px solid rgba(255, 255, 0, 0.158);
+    border-right: 1px solid rgba(255, 255, 0, 0.158);
+    border-radius: 5px;
+}
+
+footer #links img:hover {
+    opacity: 100%;
 }
 
 @media screen and (min-width:800px) {
