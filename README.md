@@ -6,5 +6,5 @@ Using async/await and fetch api to consume apis.
 
 Link: https://lfalvespe.github.io/fetch-api
 <br><br>
-<img src="prints/fetch.png">
+<img src="prints/fetch.jpg" width="500">
 </div>
