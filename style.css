@@ -159,3 +159,9 @@ footer #links img:hover {
         margin: auto;
     }
 }
+
+@media screen and (max-width:800px) {
+    #desc_box {
+        height: fit-content;
+    }
+}
